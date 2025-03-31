@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seavari - Pollution Map & Charts</title>
+    <link rel="stylesheet" href="pollution.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+          <li><a href="resource.html">Explore Ocean Life</a></li>
+            <li><a href="pollution.html">Track Pollution</a></li>
+            <li><a href="report.html">Report Species</a></li>
+            <li><a href="awareness.html">Awareness</a></li>
+            <li><a href="contact.html">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Seavari Pollution Dashboard</h1>
+    
+  <div class="form-container">
+      <form action="debries.html" method="get">
+     <tr><td><td><button >Marine Debris</button></td></tr>
+        </form>
+    <form action="ph.html" method="get">
+      <tr><td><td><button >Pollution Hotspots</button></td></tr>
+        </form>
+    </div>
+  
+  
+    <div class="dashboard-container">
+        <div id="map"></div>
+        <div class="charts-container">
+            <canvas id="pollutionChart"></canvas>
+            <canvas id="chemicalChart"></canvas>
+        </div>
+    </div>
+<script src="pollution.js"></script>
+    
+</body>
+</html>
