@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?ocean,plastic') no-repeat center center/cover;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.chart-container {
+    width: 500px;  
+    height: 500px; 
+    margin: auto;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
