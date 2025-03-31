@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white ;
+  text-align: center;
+}
+
+header {
+  background: #035e8f;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background: #62b8f5;
+  border-radius: 5px;
+}
+
+#hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://i.ibb.co/fdpR7rfL/bf784173-658a-472c-86d0-927b5e7869fd.png') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#pollution, #report, #awareness, #contact {
+  background: #0077B6;
+  color: white;
+  padding: 60px 20px;
+  margin: 0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #035e8f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #CAE9FF;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #5FA8D3;
+  background: #06283D;
+  color: #CAE9FF;
+}
+
+.form-container button {
+  margin-top: 20px;
+  background-color: #0077B6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container button:hover {
+  background-color: #CAE9FF;
+  color: #1B4965;
+}
+
+h2 {
+  color: #CAF0F8;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #03679c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-btn:hover {
+  background: #62b8f5;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+}
+
+footer {
+  background: #035e8f;
+  color: white;
+  padding: 15px;
+}
