@@ -38,11 +38,3 @@ For queries or contributions, reach out at @shimulsuplekar21@gmail.com
 <p align="left">
 <a href="https://linkedin.com/in/shimul-suplekar-227167296" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shimul suplekar" height="30" width="40" /></a>
 </p>
-
- ## 🧭 Getting Started
-
-Clone the repository:
-
-```bash
-$ git clone https://github.com/Daiss216/Seavari-website.git
-cd Seavari-website
