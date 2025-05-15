@@ -35,6 +35,9 @@ Oceans give us life. But now they need saving. Our website is a digital tool to 
 
 ## 📩Contact
 For queries or contributions, reach out at @shimulsuplekar21@gmail.com
+<p align="left">
+<a href="https://linkedin.com/in/shimul-suplekar-227167296" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shimul suplekar" height="30" width="40" /></a>
+</p>
 
  ## 🧭 Getting Started
 
